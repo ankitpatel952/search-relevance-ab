@@ -44,4 +44,4 @@ Only genre queries depend on the ranker here, and the match rate on those went f
 
 - The sessions are simulated. The click and play probabilities are my assumptions, set at the top of the script, so the A/B result shows the method and says nothing about real users.
 - The offline metrics are measured on real ratings.
-- Only one split and one seed (42) were run.
+- Only one split and one seed (42) were run. 
