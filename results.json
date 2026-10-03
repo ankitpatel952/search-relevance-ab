@@ -1,0 +1,47 @@
+{
+  "offline": {
+    "popularity": {
+      "precision": 0.01818181818181818,
+      "ndcg": 0.03068446438449862,
+      "mrr": 0.05380680173807804,
+      "hit_rate": 0.14190998342470992
+    },
+    "item_cf": {
+      "precision": 0.023842917251051893,
+      "ndcg": 0.03931110930390954,
+      "mrr": 0.06239655622544823,
+      "hit_rate": 0.18296570189978326
+    },
+    "ndcg_lift_pct": 28.11404758874978
+  },
+  "ab_test": {
+    "sessions": 20000,
+    "srm_p_value": 1.0,
+    "control_conversion": 0.6278,
+    "treatment_conversion": 0.6259,
+    "lift_points": -0.19000000000000128,
+    "z": -0.2777890132196808,
+    "p_value": 0.7811743255642813,
+    "ci95_points": [
+      -1.5305831903168123,
+      1.1505831903168098
+    ],
+    "n_per_arm_for_2pt_lift": 9171,
+    "avg_attempts": 1.26715,
+    "avg_seconds": 10.614493292792785,
+    "match_rate_by_query_type": {
+      "0": {
+        "exact": 1.0,
+        "genre": 0.112,
+        "misspelled": 0.999,
+        "vague": 0.07
+      },
+      "1": {
+        "exact": 1.0,
+        "genre": 0.132,
+        "misspelled": 1.0,
+        "vague": 0.071
+      }
+    }
+  }
+}
