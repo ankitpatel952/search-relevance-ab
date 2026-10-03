@@ -238,4 +238,4 @@ axes[1, 1].tick_params(axis="x", rotation=0)
 axes[1, 1].set_xlabel("")
 
 plt.tight_layout()
-plt.savefig("dashboard.png", dpi=150)
+plt.savefig("dashboard.png", dpi=150)  
